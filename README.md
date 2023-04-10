@@ -1,20 +1,16 @@
-# web
-
-A Clojure library designed to ... well, that part is up to you.
-
 ## Example from tutorial 
 
 https://www.youtube.com/watch?v=LcpbBth7FaQ
 
-### Load in REPL
+## Load in REPL
 
-(require '[web.core :as c])
+``` (require '[web.core :as c]) ```
 
-(def server (c/create-server))
+``` (def server (c/create-server)) ```
 
 Check http://127.0.0.1:8080 on your browser that it is running then run 
 
-(c/stop-server server)
+``` (c/stop-server server) ```
 
 Confirm that http://127.0.0.1:8080 stopped running.
 
