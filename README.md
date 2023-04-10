@@ -34,7 +34,7 @@ Confirm that http://127.0.0.1:8080 stopped running.
 
 ## License
 
-Copyright © 2023 FIXME
+Copyright © 2023 k-marin
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
