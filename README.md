@@ -4,7 +4,18 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+
+#### Load in REPL
+
+(require '[web.core :as c])
+
+(def server (c/create-server))
+
+Check http://127.0.0.1:8080 on your browser that it is running then run 
+
+(c/stop-server server)
+
+Confirm that http://127.0.0.1:8080 stopped running.
 
 ## License
 
