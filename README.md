@@ -18,8 +18,9 @@ Confirm that http://127.0.0.1:8080 stopped running.
     
     $ brew install lein
 
+## Create new project with lein
+    
     $ lein new app web
-
 
 
 ## Create jar file
