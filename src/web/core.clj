@@ -1,4 +1,5 @@
 (ns web.core
+  (:gen-class)
   [:require [org.httpkit.server :as s] ;; namespace the server
             [compojure.core :refer [routes POST GET ANY]]]) ;; refer specific functions
 
@@ -45,3 +46,8 @@
 (defn stop-server [server]
   (server :timeout 100))
 
+;; entry point for java jar
+(defn -main
+  "v1"
+  [& args]
+  (run-server))

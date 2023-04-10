@@ -2,10 +2,11 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
-## Usage
+## Example from tutorial 
 
+https://www.youtube.com/watch?v=LcpbBth7FaQ
 
-#### Load in REPL
+### Load in REPL
 
 (require '[web.core :as c])
 
@@ -16,6 +17,23 @@ Check http://127.0.0.1:8080 on your browser that it is running then run
 (c/stop-server server)
 
 Confirm that http://127.0.0.1:8080 stopped running.
+
+## Install lein
+    
+    $ brew install lein
+
+    $ lein new app web
+
+
+
+## Create jar file
+   
+    $ lein uberjar
+
+
+## Run the web app
+
+    $ java -jar web-0.1.0-SNAPSHOT-standalone.jar [args]
 
 ## License
 
