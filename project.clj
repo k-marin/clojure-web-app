@@ -9,5 +9,6 @@
   :repl-options {:init-ns web.core}
   :main ^:skip-aot web.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all
-                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+  :profiles {:uberjar {:aot :all :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}
+             :dev {:dependencies [[ring/ring-mock "0.4.0"]]}})  
+  
